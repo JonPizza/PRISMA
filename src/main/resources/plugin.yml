@@ -1,0 +1,17 @@
+name: ViralPizza
+version: ${project.version}
+main: network.jon.viralpizza.ViralPizza
+
+depends: [Vault]
+
+prefix: ViralPizza
+authors: [JonPizza]
+description: stuff
+website: https://jon.network
+api-version: 1.16
+
+commands:
+  prisma:
+    description: Warp to prisma
+    usage: /prisma
+    permission: viralpizza.spawn
